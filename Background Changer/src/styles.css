@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+button{
+    border: none;
+    color: #fff;
+    height: 15vw;
+    width: 15vw;
+    font-size: 3rem;
+    cursor: pointer;
+}
+#root{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#root>div{
+    margin-top: 2rem;
+}
+#root>div>button{
+    border-right: 3px solid #000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+#first{
+    border-left: 3px solid #000;
+}
+#root>h1{
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border: 3px solid #000;
+}
